@@ -91,10 +91,10 @@
     "bignumber.js": "^9.0.0"
   },
   "resolutions": {
-    "@walletconnect/web3-provider": "1.1.1-alpha.0"
+    "@walletconnect/web3-provider": "^1.0.11"
   },
   "scripts": {
-    "start": "set PORT=3006 && react-scripts --openssl-legacy-provider start",
+    "start": "set PORT=3006 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
